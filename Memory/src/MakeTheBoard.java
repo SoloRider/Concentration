@@ -111,6 +111,7 @@ public class MakeTheBoard
 				System.out.println(layout[places2][choice2 % 10]);
 				(layout[places2][choice2 % 10]) = hiddenLayout[places2][choice2];
 				display();
+				System.out.println("It took you " + counter + " turns");
 				if(layout[places][choice % 10] == layout[places2][choice2 % 10])
 					{
 						places = 0;
